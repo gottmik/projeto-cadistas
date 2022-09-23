@@ -6,10 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
-    <img src="./1.svg" alt="">
-    <img src="./2.svg" alt="">
-    <img src="./3.svg" alt="">
+    <div class="container">
+        <img src="./1.svg" alt="">
+        <img src="./2.svg" alt="">
+        <img src="./3.svg" alt="">
+    </div>
+    <div class="container2">
+        <img src="./11.svg" alt="">
+        <img src="./22.svg" alt="">
+        <img src="./33.svg" alt="">
+    </div>
+    
+
+<script>
+    const celular = document.querySelector('.container');
+    const tabletPc = document.querySelector('.container2');
+
+    if ($(document).width() > 950) {
+   tabletPc.style.display = 'block';
+  }
+  else {
+   celular.style.display = 'block';
+   }
+
+    
+    
+</script>
 </body>
 </html>
