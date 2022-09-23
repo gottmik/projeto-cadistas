@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 img{
@@ -8,5 +9,6 @@ img{
     height: 100%;
     background-color: transparent;
     margin-bottom:-10px;
+    
    
 }
